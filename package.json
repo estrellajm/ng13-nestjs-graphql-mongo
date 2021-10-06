@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Kpi Frontend & Backend",
   "scripts": {
+    "fe":"cd frontend; ng s; cd -",
+    "be":"cd backend; nest start -w; cd -",
     "install:all": "for D in */; do yarn --cwd \"${D}\"; done"
   },
   "author": "Jose Estrella",
