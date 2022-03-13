@@ -1,5 +1,5 @@
 {
-  "name": "FeBe",
+  "name": "fe-be",
   "version": "1.0.0",
   "description": "Frontend & Backend",
   "scripts": {
@@ -8,5 +8,5 @@
     "install:all": "for D in */; do yarn --cwd \"${D}\"; done"
   },
   "author": "Jose Estrella",
-  "license": "ISC"
+  "license": "MIT"
 }
